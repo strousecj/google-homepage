@@ -1,9 +1,6 @@
 body {
     font-family: Arial, sans-serif;
     font-size: 13px;
-    display: flex;
-    min-height: 100vh;
-    flex-direction: column;
 }
 
 ul {
@@ -48,7 +45,6 @@ main {
     display: block;
     justify-content: center;
     margin: 0 auto;
-    flex: 1;
 }
 
 .flex-center {
@@ -69,7 +65,7 @@ main {
     width: 272px;
     height: 92px;
     margin: 0 auto;
-    padding: 109px 0 25px 0;
+    padding: 109px 0 50px 0;
 }
 
 #searchform {
@@ -82,8 +78,8 @@ main {
 }
 
 #main-search-field {
-    width: 580px;
-    height: 48px;
+    width: 500px;
+    height: 34px;
     margin: auto;
 }
 
@@ -106,15 +102,12 @@ main {
     border: 1px solid rgb(242, 242, 242);
     border-radius: 4px;
     cursor: pointer;
-    white-space: nowrap;
 }
 
 footer {
     background-color: rgb(242, 242, 242);
-    border: 1px solid rgb(242, 242, 242);
 }
 
 footer a {
     color: rgb(95, 99, 104);
-    font-size: 15px;
 }
